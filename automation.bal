@@ -1,9 +1,4 @@
-import ballerina/log;
-
+import ballerina/io;
 public function main() returns error? {
-    do {
-    } on fail error e {
-        log:printError("Error occurred", 'error = e);
-        return e;
-    }
+    io:println("Hello, World!");
 }
