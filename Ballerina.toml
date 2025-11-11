@@ -3,6 +3,7 @@ org = "ChiranFernando"
 name = "foo"
 version = "0.1.0"
 title = "Foo"
+distribution = "2201.13.0"
 
 [build-options]
 sticky = true
